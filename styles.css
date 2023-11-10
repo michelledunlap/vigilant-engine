@@ -1,25 +1,31 @@
 #emotion-wheel {
-    /* Your styling here */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.emotion-column {
+    margin: 10px;
+}
+
+.main-emotion {
+    /* Styling for main emotions */
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .emotion {
-    /* Your styling here */
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 2px;
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.emotion-section {
-    display: none;
+.emotion-subcolumn {
+    margin-left: 20px;
 }
 
 .greyed-out {
-    /* Styling for greyed out emotion */
     color: #757575;
     background-color: #e0e0e0;
 }
