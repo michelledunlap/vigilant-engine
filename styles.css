@@ -1,0 +1,25 @@
+#emotion-wheel {
+    /* Your styling here */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emotion {
+    /* Your styling here */
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.emotion-section {
+    display: none;
+}
+
+.greyed-out {
+    /* Styling for greyed out emotion */
+    color: #757575;
+    background-color: #e0e0e0;
+}
